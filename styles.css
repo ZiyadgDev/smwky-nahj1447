@@ -1,0 +1,316 @@
+body{
+    font-family: "El Messiri";
+    background-image: linear-gradient(45deg, #280905, #C3110C);
+    margin: 0;
+    color: #E2E8F0;
+}
+
+header{
+    background-image: radial-gradient(1100px, #280905, #740A03);
+    padding: 0.7%;
+}
+
+footer{
+    background-color: #0d1015;
+    padding: 0.7%;
+}
+
+hr{
+    margin: 0;
+}
+
+h1{
+    text-align: right;
+    margin-top: 12%;
+    margin-right: 5%;
+    font-size: 500%;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Noto Sans Arabic", sans-serif;
+}
+
+h3{
+    text-align: right;
+    font-size: 300%;
+    margin-right: 5%;
+}
+
+h4{
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-size: 70%;
+    margin: 0;
+}
+
+#logo{
+    margin-left: 6.2%;
+}
+
+p{
+    font-size: 150%;
+    font-family: "Noto Sans Arabic", sans-serif;
+    margin: 0 5%;
+    line-height: 200%;
+}
+
+#MainMenu{
+    width: 5%;
+}
+
+#lang{
+    font-family: sans-serif;
+}
+
+#HomeOfAll{
+    margin-bottom: 25%;
+}
+
+button{
+    padding: 19% 16%;
+    margin-bottom: 15%;
+    border-radius: 5%;
+    font-family: "Noto Sans Arabic", sans-serif;
+    border: 2px solid #EAE7AF;
+}
+
+#Games{
+    margin-left: 3%;
+    font-size: 330%;
+    font-weight: bold;
+    color: #e5d4d4;
+    text-shadow: 0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black;
+    background: url(Images/burger.png) center center no-repeat;
+    background-size: 150%;
+    background-color: rgb(0, 0, 0);
+}
+
+#Games:hover{
+    cursor: pointer;
+    background-color: gray;
+    border: 2px solid rgb(87, 87, 87);
+}
+
+#Me{
+    background: url(Images/سموكي\ بدون\ خلفية.png) center center no-repeat;
+    background-color: rgb(16, 0, 19);
+    font-size: 330%;
+    background-size: 100%;
+    font-weight: bold;
+    -webkit-text-fill-color: #e5d4d4;
+    text-shadow: 0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black;
+}
+
+#Me:hover{
+    cursor: pointer;
+    filter: contrast(1.2);
+    border: 2px solid gray;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-align: right;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    font-size: 175%;
+}
+
+a{
+    color: #ff5871;
+    text-decoration: none;
+}
+
+#Enna{
+    padding-top: 14%; 
+    text-align: left; 
+    border-left: 2px dashed white; 
+    width: 77%;
+    margin-bottom: 10%;
+}
+
+#Enna-img{
+    width: 20%; 
+    float: left;
+}
+
+#Energy{
+    padding-top: 11%; 
+    padding-right: 1%; 
+    width: 78%; 
+    border-right: 2px dashed white; 
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+#Ediv{
+    text-align: right; 
+    margin-right: 5%;
+}
+
+#Energy-img{
+    width: 12.5%;
+    float: right;
+}
+
+#Kaa{
+    padding-top: 14%; 
+    text-align: left; 
+    border-left: 2px dashed white; 
+    width: 78%;
+    margin-bottom: 4%;
+}
+
+#kaa-img{
+    width: 20%; 
+    float: left;
+}
+
+#ZDE{
+    width: 60%;
+}
+
+#AllMy{
+    margin-bottom: 20%;
+}
+
+.GameCard{
+    font-family: "Noto Sans Arabic", sans-serif;
+    margin: auto;
+    margin-bottom: 10%;
+    padding: 0 0 5% 0;
+    text-align: center;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    width: 80%;
+    border-radius: 1%;
+    border: 2px solid black;
+    color: #E2E8F0;
+
+    h2{
+        margin: 5% 0;
+        font-size: 225%;
+    }
+
+    img{
+        width: 20%;
+        border: 2px solid white;
+    }
+
+    p{
+        margin: 2% 0;
+    }
+}
+
+/* Phone screens */
+@media (max-width: 768px) {
+    header{
+        padding: 0;
+        height: inherit;
+    }
+    
+    footer{
+        padding: 0.7%;
+    }
+    
+    h1{
+        font-size: 350%;
+    }
+    
+    h3{
+        font-size: 150%;
+    }
+    
+    h4{
+        font-size: 50%;
+    }
+    
+    #logo{
+        margin-left: 10%;
+    }
+
+    #UPBGE{
+        width: 35%;
+    }
+
+    #Unity{
+        width: 30%;
+    }
+    
+    p{
+        font-size: 100%;
+        font-family: sans-serif;
+        text-align: right;
+        margin-right: 5%;
+    }
+    
+    #MainMenu{
+        width: 15%;
+    }
+    
+    #Games{
+        padding: 18% 10.2%;
+        margin-left: 0;
+    }
+    
+    li{
+        margin-bottom: 5%;
+        font-size: 125%;
+    }
+    
+    #Enna{
+        width: 64%;
+    }
+
+    #Enna-img{
+        width: 35%; 
+    }
+    
+    #Energy{
+        width: 70%;
+        padding-right: 5%;
+        margin-right: 22%;
+    }
+
+    #Ediv{
+        margin-right: 5%;
+    }
+
+    #Energy-img{
+        width: 20%;
+    }
+    
+    #Kaa{
+        width: 65%;
+        margin-bottom: 10%;
+    }  
+    
+    #kaa-img{
+        width: 35%; 
+        float: left;
+    }
+
+    #ZDE{
+        width: 80%;
+    }
+    
+    .GameCard{
+        h2{
+            font-size: 100%;
+        }
+    
+        img{
+            width: 40%;
+        }
+    
+        p{
+            margin: 4% 0;
+            font-size: 75%;
+            text-align: center;
+        }
+    }
+}
